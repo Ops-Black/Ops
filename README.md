@@ -40,7 +40,7 @@ sudo ./Ops-Black.sh
 ### Termux
 
    git clone https://github.com/Ops-Black/Ops.git
-```cd Ops/Ops-Black 
+   cd Ops/Ops-Black 
    chmod +x Ops-Black.sh
    service tor start
    ./Ops-Black.sh
