@@ -1,14 +1,13 @@
-# Ops-Black v1.0
-## Author: github.com/laith abd alamaer
+# Ops# Ops-Black v1.0
 
 Facebook Brute Forcer in shellscript using TOR
 
 ## Legal disclaimer:
-Usage of Facebash for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program 
+
 
 ### WARNING:
 ```
-Facebook blocks account for 1 hour after 20 wrong passwords, so this script can perform only 20 pass/h.
+Facebook blocks account for 1 hour after 30 wrong passwords, so this script can perform only 30 pass/h.
 ```
 
 
@@ -17,18 +16,35 @@ Facebook blocks account for 1 hour after 20 wrong passwords, so this script can 
 
 - Save/Resume sessions
 - Anonymous attack through TOR
-- Default Password List (+39k)
+- Default Password List (+46k)
 
 
 ### Usage:
+### Debian && Ubuntu
+ sudo apt install tor
+### Fedora && CentOS && Red Hat
+ sudo yum install tor
+### Termux 
+ pkg install tor 
+ apt install tor
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-```
-git clone 
-cd instashell
-chmod +x ops-black.sh
-service tor start
-sudo ./ops-black.sh
-```
+sudo git clone https://github.com/Ops-Black/Ops.git
+cd Ops/Ops-Black 
+sudo chmod +x Ops-Black.sh
+sudo service tor start
+sudo ./Ops-Black.sh
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+### Termux
+
+   git clone https://github.com/Ops-Black/Ops.git
+```cd Ops/Ops-Black 
+   chmod +x Ops-Black.sh
+   service tor start
+   ./Ops-Black.sh
+
 
 ### Install requirements (Curl, Tor):
 
@@ -36,7 +52,3 @@ sudo ./ops-black.sh
 chmod +x install.sh
 sudo ./install.sh
 ```
-### Donate!
-Support the authors:
-
-
