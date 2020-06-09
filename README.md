@@ -1,5 +1,4 @@
 # Ops# Ops-Black v1.0
-# Author: github.com/Ops-Black
 
 Facebook Brute Forcer in shellscript using TOR
 
@@ -8,7 +7,7 @@ Facebook Brute Forcer in shellscript using TOR
 
 ### WARNING:
 ```
-Facebook blocks account for 1 hour after 20 wrong passwords, so this script can perform only 20 pass/h.
+Facebook blocks account for 1 hour after 30 wrong passwords, so this script can perform only 30 pass/h.
 ```
 
 
@@ -17,7 +16,7 @@ Facebook blocks account for 1 hour after 20 wrong passwords, so this script can 
 
 - Save/Resume sessions
 - Anonymous attack through TOR
-- Default Password List (+39k)
+- Default Password List (+46k)
 
 
 ### Usage:
